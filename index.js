@@ -7,7 +7,7 @@ var randomdiceimg1 ="dice"+randomnumber1+".png";
 // var randomimgsource1="image/"+randomdiceimg1;
 
 var image1=document.querySelectorAll("img")[0];
-image1.setAttribute("src",randomimgsource1);
+image1.setAttribute("src",randomdiceimg1);
 
 var random_number2=Math.floor(Math.random()*6)+1;
 var random_diceimg2 ="dice"+random_number2+".png";

@@ -4,13 +4,13 @@ k.innerHTML = "Dice game";
 
 var randomnumber1=Math.floor(Math.random()*6)+1;
 var randomdiceimg1 ="dice"+randomnumber1+".png";
-var randomimgsource1="image/"+randomdiceimg1;
+// var randomimgsource1="image/"+randomdiceimg1;
 
 var image1=document.querySelectorAll("img")[0];
 image1.setAttribute("src",randomimgsource1);
 
 var random_number2=Math.floor(Math.random()*6)+1;
-var random_diceimg2 ="image/dice"+random_number2+".png";
+var random_diceimg2 ="dice"+random_number2+".png";
 
 document.querySelectorAll("img")[1].setAttribute("src",random_diceimg2);
 
